@@ -86,6 +86,93 @@
         "dateTo": "string",
         "rundownDate": "string"
       }
+    },
+{
+      "storeNumber": "123",
+      "MIN": "testabc1",
+      "variants": [
+        "testabc1"
+      ],
+      "totalFillQty": 1,
+      "startOfDayQty": 1,
+      "endOfDayQty": 2,
+      "status": "Active",
+      "standardSpace": {
+        "totalFillQty": 2,
+        "startOfDayQty": 2,
+        "endOfDayQty": 1,
+        "rundownDate": "02/05/2018",
+        "locations": {
+          "locations": [
+            {
+              "planClass": 1,
+              "planType": "planType",
+              "planName": "testplanName",
+              "gondola": "gondola",
+              "aisle": "aisle",
+              "side": "side",
+              "bayNumber": "12345",
+              "shelfNumber": "12345",
+              "position": "down",
+              "merchandiseType": "type",
+              "unitsWide": 4,
+              "unitsHigh": 5,
+              "unitsDeep": 6,
+              "fillQty": 7,
+              "facings": 8,
+              "dateFrom": "02/05/2018",
+              "dateTo": "05/02/2015",
+              "planRundownDate": "05/02/2017",
+              "storeWalkSequence": 8,
+              "selBlockwidth": 8,
+              "locationCount": 8,
+              "itemOnPeg": "8"
+            }
+          ]
+        }
+      },
+      "promotionalSpace": {
+        "totalFillQty": 0,
+        "startOfDayQty": 0,
+        "endOfDayQty": 0,
+        "rundownDate": "string",
+        "locations": {
+          "locations": [
+            {
+              "planClass": 0,
+              "planType": "string",
+              "planName": "string",
+              "gondola": "string",
+              "aisle": "string",
+              "side": "string",
+              "bayNumber": "string",
+              "shelfNumber": "string",
+              "position": "string",
+              "merchandiseType": "string",
+              "unitsWide": 0,
+              "unitsHigh": 0,
+              "unitsDeep": 0,
+              "fillQty": 0,
+              "facings": 0,
+              "dateFrom": "string",
+              "dateTo": "string",
+              "planRundownDate": "string",
+              "storeWalkSequence": 0,
+              "selBlockwidth": 0,
+              "locationCount": 0,
+              "itemOnPeg": "string"
+            }
+          ]
+        }
+      },
+      "discretionarySpace": {
+        "totalFillQty": 0,
+        "startOfDayQty": 0,
+        "endOfDayQty": 0,
+        "dateFrom": "string",
+        "dateTo": "string",
+        "rundownDate": "string"
+      }
     }
   ],
   "metadata": {
